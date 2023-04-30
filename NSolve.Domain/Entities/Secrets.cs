@@ -4,9 +4,9 @@ public class Secrets
 {
     public Guid Id { get; set; }
 
-    public string AdminSecret { get; set; }
+    public string AdminSecret { get; set; } = default!;
 
-    public string JoinerSecret { get; set; }
+    public string JoinerSecret { get; set; } = default!;
 
     public DateTime Created { get; set; }
 
